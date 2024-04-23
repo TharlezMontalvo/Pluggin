@@ -1,0 +1,17 @@
+{
+    "name": "root/gist-woocommerce-plugin",
+    "description": "Gist plugin to trace all the woocommerce events and send to gist server",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "anuraggsps",
+            "email": "anurag_gautam@softprodigy.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
